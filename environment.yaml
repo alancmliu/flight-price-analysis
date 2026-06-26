@@ -1,0 +1,20 @@
+# install with conda env create -f environment.yaml
+
+name: flight-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11  # specify Python version
+  - ipykernel
+  - duckdb
+  - pandas  
+  - matplotlib  
+  - seaborn
+  - nbformat
+  - pyarrow
+  - plotly
+  - scikit-learn  
+  - statsmodels
+  - kagglehub
+  - pip
